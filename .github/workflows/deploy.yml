@@ -27,7 +27,7 @@ jobs:
           username: ubuntu   # or ubuntu if Ubuntu server
           key: ${{ secrets.EC2_SSH_KEY }}
           source: "./*"
-          target: /home/ubuntu/ecommercefullstack
+          target: /home/ubuntu/onlinevotingfullstack
  
 
       # Step 4: SSH into EC2 and deploy with Docker Compose
